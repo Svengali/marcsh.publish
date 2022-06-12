@@ -1,0 +1,48 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #040404;
+  color: #ddd;
+  margin: 0px;
+}
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.dark {
+  background-color: #181818;
+}
+
+.content {
+  padding: 8px;
+  border: 2px;
+  border-color: #ddd #444 #444 #ddd;
+  border-style: solid;
+}
+
+  .content:hover {
+    border-color: #444 #ddd #ddd #444;
+  }
+
+.email {
+  color: #111;
+}
